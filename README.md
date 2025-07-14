@@ -93,30 +93,19 @@ Method: GET
 
 🚀 How to Run Locally
 1. Clone the repository
-bash
-Copy
-Edit
+
 git clone https://github.com/KishoreChatterjee/sarva-wheel-api.git
 cd sarva-wheel-api
 2. Create a virtual environment
-bash
-Copy
-Edit
+
 python -m venv env
 env\Scripts\activate  # for Windows
 # or
 source env/bin/activate  # for macOS/Linux
 3. Install dependencies
-bash
-Copy
-Edit
 pip install -r requirements.txt
 4. Configure PostgreSQL Database
 In settings.py, update:
-
-python
-Copy
-Edit
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
